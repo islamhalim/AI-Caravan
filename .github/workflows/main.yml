@@ -10,18 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out the source repository
+      - name: Check out the repository
         uses: actions/checkout@v4
         with:
-          repository: R8-IEEE/R8-carav
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Fetch all history for all branches and tags
+
+      - name: Set up Git configuration
+        run: |
+          git config user.name "Your Name"
+          git config user.email "your-email@example.com"
 
       - name: Add backup repository as remote
         run: |
           git remote add backup https://github.com/dalibendhiab10/R8-carav-backup.git
 
-      - name: Push to backup repository
+      - name: Push changes to backup repository
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BACKUP_REPO_PAT: ${{ secrets.BACKUP_REPO_PAT }}
         run: |
-          git push --mirror backup
+          git push --mirror https://username:${BACKUP_REPO_PAT}@github.com/dalibendhiab10/R8-carav-backup.git
