@@ -8,24 +8,21 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out the repository
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v2
         with:
-          fetch-depth: 0  # Fetch all history for all branches and tags
+          repository: 'dalibendhiab10/R8-carav-backup'
+          token: ${{ secrets.MY_PAT }}
 
       - name: Set up Git configuration
         run: |
-          git config user.name "Your Name"
-          git config user.email "your-email@example.com"
-
-      - name: Add backup repository as remote
-        run: |
-          git remote add backup https://github.com/dalibendhiab10/R8-carav-backup.git
+          git config user.name "dalibendhiab10"
+          git config user.email "itsdalibendhiab@gmail.com"
 
       - name: Push changes to backup repository
-        env:
-          BACKUP_REPO_PAT: ${{ secrets.BACKUP_REPO_PAT }}
         run: |
-          git push --mirror https://username:${BACKUP_REPO_PAT}@github.com/dalibendhiab10/R8-carav-backup.git
+          git remote set-url origin https://github.com/dalibendhiab10/R8-carav-backup.git
+          git push --mirror
+        env:
+          GITHUB_TOKEN: ${{ secrets.BACKUP_REPO_PAT }}
