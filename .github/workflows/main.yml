@@ -22,7 +22,7 @@ jobs:
       - name: Add backup remote
         run: |
           echo "Adding backup remote..."
-          git remote add backup https://dalibendhiab10:${{ secrets.BACKUP_REPO_PAT }}@github.com/dalibendhiab10/R8-carav-backup.git
+          git remote add backup https://github.com/dalibendhiab10/R8-carav-backup.git
           echo "Current remotes:"
           git remote -v
 
@@ -30,3 +30,7 @@ jobs:
         run: |
           echo "Pushing changes to backup repository..."
           git push --mirror backup
+                    git push --mirror
+        env:
+          GITHUB_TOKEN: ${{ secrets.BACKUP_REPO_PAT }}
+
