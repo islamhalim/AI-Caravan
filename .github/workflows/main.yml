@@ -18,9 +18,8 @@ jobs:
           git config --global user.name "dalibendhiab10"
           git config --global user.email "itsdalibendhiab@gmail.com"
 
-      - name: Add backup remote with authentication
-        run: |
-          git remote add backup https://x-access-token:${{ secrets.BACKUP_REPO_PAT }}@github.com/dalibendhiab10/R8-carav-backup.git
-
+      - name: Add backup remote
+        run: git remote add backup https://github.com/dalibendhiab10/R8-carav-backup.git
+      
       - name: Push to backup repository
         run: git push --mirror backup
