@@ -1,25 +1,38 @@
-name: Sync to Backup Repo
+name: Sync to Backup Repository
 
 on:
-  push:
-    branches:
-      - main
+ push:
+   branches:
+     - main
 
 jobs:
-  sync:
-    runs-on: ubuntu-latest
+ sync:
+   runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+   steps:
+     - name: Check out the primary repository
+       uses: actions/checkout@v4
+       with:
+         path: primary-repo
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "dalibendhiab10"
-          git config --global user.email "itsdalibendhiab@gmail.com"
+     - name: Check out the backup repository
+       uses: actions/checkout@v4
+       with:
+         repository: dalibendhiab10/R8-carav-backup
+         token: ${{ secrets.BACKUP_REPO_PAT }}
+         path: backup-repo
 
-      - name: Add backup remote
-        run: git remote add backup https://github.com/dalibendhiab10/R8-carav-backup.git
-      
-      - name: Push to backup repository
-        run: git push --mirror backup
+     - name: Sync repositories
+       run: |
+         rsync -av --delete primary-repo/ backup-repo/
+       env:
+         RSYNC_RSH: 'ssh -o StrictHostKeyChecking=no'
+
+     - name: Commit and push changes
+       run: |
+         cd backup-repo
+         git config --global user.name "dalibendhiab10"
+         git config --global user.email "itsdalibendhiab@gmail.com"
+         git add .
+         git commit -m "Sync from primary repository"
+         git push
