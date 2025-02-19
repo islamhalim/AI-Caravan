@@ -3,22 +3,36 @@ name: Sync to Backup Repository
 on:
   push:
     branches:
-      - main
+      - main  # Adjust if your default branch is named differently
 
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone Main Repository
-        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
+      - name: Check out the repository
+        uses: actions/checkout@v4
         with:
-          owner: 'R8-IEEE'
-          repository: 'R8-carav'
-          branch: 'main'
-          access-token: ${{ secrets.BACKUP_REPO_PAT }}
+          fetch-depth: 0  # Fetch all history for all branches and tags
 
-      - name: Sync to Backup Repository
+      - name: Verify BACKUP_REPO_PAT environment variable
         run: |
-          git remote set-url origin https://github.com/dalibendhiab10/R8-carav-backup.git
-          git push --mirror
+          if [ -z "${{ secrets.BACKUP_REPO_PAT }}" ]; then
+            echo "Error: BACKUP_REPO_PAT is not set."
+            exit 1
+          else
+            echo "BACKUP_REPO_PAT is set."
+          fi
+
+      - name: Set up Git configuration
+        run: |
+          git config user.name "Your Name"
+          git config user.email "your-email@example.com"
+
+      - name: Add backup repository as remote
+        run: |
+          git remote add backup https://username:${{ secrets.BACKUP_REPO_PAT }}@github.com/dalibendhiab10/R8-carav-backup.git
+
+      - name: Push changes to backup repository
+        run: |
+          git push --mirror backup
