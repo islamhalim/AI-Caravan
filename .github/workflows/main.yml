@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: 'dalibendhiab10/R8-carav-backup'
-          token: ${{ secrets.MY_PAT }}
+          token: ${{ secrets.BACKUP_REPO_PAT }}
 
       - name: Set up Git configuration
         run: |
