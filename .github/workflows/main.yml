@@ -3,20 +3,23 @@ name: Sync to Backup Repo
 on:
   push:
     branches:
-      - main  # Change this if needed
+      - main
 
 jobs:
-  sync_backup:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Push to Backup Repository
-        run: |
-          git config --global user.name "dalibendhiab10"
-          git config --global user.email "itsdalibendhiab@gmail.com"
+    - name: Configure Git
+      run: |
+        git config --global user.name "dalibendhiab10"
+        git config --global user.email "itsdalibendhiab@gmail.com"
 
-          git remote add backup https://x-access-token:${{ secrets.BACKUP_REPO_PAT }}@github.com/dalibendhiab10/R8-carav-backup.git
-          git push --mirror backup
+    - name: Add backup remote
+      run: git remote add backup https://github.com/dalibendhiab10/R8-carav-backup.git
+
+    - name: Push to backup repository
+      run: git push --mirror backup
