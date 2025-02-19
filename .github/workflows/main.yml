@@ -3,35 +3,35 @@ name: Sync to Backup Repository
 on:
   push:
     branches:
-      - main  # Ensure this matches your main repository's default branch
+      - main  # Adjust if your default branch is named differently
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the main repository (R8-IEEE/R8-carav)
+      # 1. Check out your main repository (R8-IEEE/R8-carav)
       - name: Checkout main repository
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 2: Set up Git configuration
+      # 2. Set up Git configuration
       - name: Set up Git configuration
         run: |
           git config user.name "dalibendhiab10"
-          git config user.email "itsdalibendhiab@gmail.com"
+          git config user.email "itsdalibendhiab10@gmail.com"
 
-      # Step 3: Add the backup remote including the PAT in the URL
+      # 3. Add the backup remote using your PAT for authentication
       - name: Add backup remote with authentication
         run: |
-          # Remove any existing backup remote (if exists)
+          # Remove any existing remote named "backup" (ignore errors if it doesn't exist)
           git remote remove backup || true
-          # Add backup remote with the PAT embedded in the URL
+          # Add backup remote; the PAT is embedded in the URL for authentication
           git remote add backup https://dalibendhiab10:${{ secrets.BACKUP_REPO_PAT }}@github.com/dalibendhiab10/R8-carav-backup.git
           echo "Current remotes:"
           git remote -v
 
-      # Step 4: Push all changes (mirror push) to the backup repository
+      # 4. Push all changes (mirror) to the backup repository
       - name: Push changes to backup repository
         run: |
           git push --mirror backup
