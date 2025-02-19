@@ -14,11 +14,14 @@ jobs:
         with:
           repository: 'dalibendhiab10/R8-carav-backup'
           token: ${{ secrets.BACKUP_REPO_PAT }}
+      - name: Fetch the repository
+        run: |
+          git fetch origin refs/heads/main:refs/remotes/origin/main
 
       - name: Set up Git configuration
         run: |
           git config user.name "dalibendhiab10"
-          git config user.email "itsdalibendhiab@gmail.com"
+          git config user.email "itsdalibendhiab10@gmail.com"
 
       - name: Push changes to backup repository
         run: |
