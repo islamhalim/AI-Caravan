@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Briefcase, CheckCircle } from 'lucide-react';
+import { User, Briefcase, CheckCircle, ExternalLink } from 'lucide-react';
 
 const Registration = () => {
   const [formType, setFormType] = useState('student');
@@ -50,21 +50,9 @@ const Registration = () => {
           </button>
         </div>
 
-        <div className="max-w-2xl mx-auto bg-gray-50 rounded-lg p-8 shadow-lg">
-          <div className="flex justify-center">
-            <iframe 
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdO6fX9Br0dH3Y9Atxj46uGBb9h8SOTZ7-VJE1pyriZyMSNig/viewform?embedded=true" 
-              width="100%" 
-              height="600" 
-              style={{ border: 'none' }}
-              title="Registration Form"
-            >
-              Loading…
-            </iframe>
-          </div>
-        </div>
+       
 
-        <div className="mt-12 max-w-2xl mx-auto">
+        <div className="my-12 max-w-2xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Eligibility Criteria</h3>
           <ul className="space-y-3">
             {formType === 'student' ? (
@@ -99,6 +87,19 @@ const Registration = () => {
               </>
             )}
           </ul>
+        </div>
+        <div className="max-w-2xl mx-auto bg-gray-50 rounded-lg p-8 shadow-lg text-center">
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Register?</h3>
+          <p className="text-gray-600 mb-6">Click the button below to complete your registration.</p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdO6fX9Br0dH3Y9Atxj46uGBb9h8SOTZ7-VJE1pyriZyMSNig/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-[#f9a31a] text-white font-semibold rounded-lg shadow-md hover:bg-[#e6951a] transition"
+          >
+            Go to Registration Form
+            <ExternalLink className="w-5 h-5 ml-2" />
+          </a>
         </div>
       </div>
     </section>

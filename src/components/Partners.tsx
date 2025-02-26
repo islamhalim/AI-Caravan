@@ -20,11 +20,10 @@ const Partners = () => {
         },
         {
           name: 'University of Louisville',
-          url: 'https://imageio.forbes.com/specials-images/imageserve/55b94783e4b05c2c34324563/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=87&width=87'
+          url: '/assets/univlouis.svg'
         },
       ]
     },
-
   ];
 
   return (
@@ -45,19 +44,17 @@ const Partners = () => {
                 <h3 className="text-2xl font-bold text-gray-900">{category.category}</h3>
               </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+              <div className="flex flex-col items-center gap-8 md:grid md:grid-cols-3 lg:grid-cols-4">
                 {category.logos.map((partner) => (
                   <div
                     key={partner.name}
-                    className="flex items-center justify-center p-8 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow  flex-col w-fit"
+                    className="flex items-center justify-center p-8 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow w-full md:w-auto"
                   >
                     <img
                       src={partner.url}
                       alt={partner.name}
-                      className="max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all w-96"
+                      className="max-h-16 object-contain w-full md:w-auto"
                     />
-                    <h3 className='text-lg text-gray-600 text-center '> {partner.name}</h3>
-
                   </div>
                 ))}
               </div>
