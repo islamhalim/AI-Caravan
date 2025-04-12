@@ -20,7 +20,7 @@ const Team = () => {
 
       {
         name: 'Islam Tharwat',
-        photo: '/assets/team/islam-tharwat.jpg'
+        photo: 'https://drive.google.com/file/d/1-haUsMHcv93A5-tqJVjOr8uasPOyrYqv/view?usp=sharing'
       },
 
     {
