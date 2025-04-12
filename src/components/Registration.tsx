@@ -14,7 +14,7 @@ const Registration = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 mb-12">
+        <div className="flex flex-col center md:flex-row gap-8 mb-12">
           <button
             onClick={() => setFormType('student')}
             className={`flex-1 p-6 rounded-lg border-2 transition-all ${
@@ -51,15 +51,15 @@ const Registration = () => {
         </div>
 
        
-
-        <div className="my-12 max-w-2xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Eligibility Criteria</h3>
+       
+        <div className=" my-2  max-w-2xl mx-auto text-center">
+          <h3 className="text-xl font-bold  text-gray-900 mb-4">Eligibility Criteria</h3>
           <ul className="space-y-3">
             {formType === 'student' ? (
               <>
-                <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-[#f9a31a] mt-1 mr-3" />
-                  <span>Currently enrolled in a university program</span>
+                <li className="flex items-start text-center">
+                  <CheckCircle className="w-5 h-5 text-[#f9a31a] mt-1 mr-3 " />
+                  <span>Currently enrolled in a school/university program</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-[#f9a31a] mt-1 mr-3" />
@@ -74,7 +74,7 @@ const Registration = () => {
               <>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-[#f9a31a] mt-1 mr-3" />
-                  <span>Minimum 2 years of professional experience</span>
+                  <span>Minimum 3 years of professional experience</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-[#f9a31a] mt-1 mr-3" />
@@ -92,7 +92,7 @@ const Registration = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Register?</h3>
           <p className="text-gray-600 mb-6">Click the button below to complete your registration.</p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdO6fX9Br0dH3Y9Atxj46uGBb9h8SOTZ7-VJE1pyriZyMSNig/viewform"
+            href="https://forms.gle/SJit7BG93TUwWcCX6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-[#f9a31a] text-white font-semibold rounded-lg shadow-md hover:bg-[#e6951a] transition"

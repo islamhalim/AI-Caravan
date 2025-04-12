@@ -11,37 +11,40 @@ const Contact = () => {
         </div>
 
         <div className="grid gap-12">
-          <div className="bg-white rounded-lg p-8 shadow-lg">
+          <div className="bg-white rounded-lg p-8 shadow-lg text-center" >
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
 
             <div className="space-y-6 flex flex-col sm:flex-row flex-wrap justify-center sm:justify-around items-center w-full">
               <div className="flex items-start w-full sm:w-auto">
-                <Mail className="w-6 h-6 text-[#f9a31a] mt-1" />
-                <div className="ml-4">
+                <Mail className="w-6 h-6 text-[#f9a31a]" />
+                <div className="ml-2">
                   <p className="font-semibold">Email</p>
                   <a href="mailto:contact@ieeecsai.org" className="text-gray-600 hover:text-[#f9a31a]">
-                    contact@ieeecsai.org
+                    help@computer.org <br />
+                    islamhalim@ieee.org
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start w-full sm:w-auto">
                 <Phone className="w-6 h-6 text-[#f9a31a]" />
-                <div className="ml-4">
+                <div className="ml-2">
                   <p className="font-semibold">Phone</p>
                   <a href="tel:+1234567890" className="text-gray-600 hover:text-[#f9a31a]">
-                    +1 (234) 567-890
+                  +1-202-371-0101 <br />
+                  +2-010-0114-6444
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start w-full sm:w-auto">
                 <MapPin className="w-6 h-6 text-[#f9a31a]" />
-                <div className="ml-4">
+                <div className="ml-2">
                   <p className="font-semibold">Address</p>
                   <p className="text-gray-600">
-                    IEEE Computer Society<br />
-                    Region 8 Headquarters
+                  Washington, DC Office<br />
+                  2001 L Street N.W., Suite 700
+                  Washington, DC 20036-4928
                   </p>
                 </div>
               </div>
@@ -50,13 +53,13 @@ const Contact = () => {
             <div className="mt-8">
               <h4 className="font-semibold mb-4 text-center">Follow Us</h4>
               <div className="flex justify-center space-x-4">
-                <a href="#" className="text-gray-600 hover:text-[#f9a31a]">
+                <a href="https://www.linkedin.com/company/ieee-computer-society-r8-ai-caravan/" className="text-gray-600 hover:text-[#f9a31a]">
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a href="#" className="text-gray-600 hover:text-[#f9a31a]">
                   <Twitter className="w-6 h-6" />
                 </a>
-                <a href="#" className="text-gray-600 hover:text-[#f9a31a]">
+                <a href="https://www.facebook.com/profile.php?id=61573846683564" className="text-gray-600 hover:text-[#f9a31a]">
                   <Facebook className="w-6 h-6" />
                 </a>
               </div>

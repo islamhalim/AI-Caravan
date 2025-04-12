@@ -1,6 +1,6 @@
-import React from 'react';
-import { Brain, Network,Calendar } from 'lucide-react';
 
+import { Brain, Network,Calendar } from 'lucide-react';
+import logo from './imgs/caravanlogo.png';
 const Hero = () => {
   return (
     <section
@@ -8,15 +8,21 @@ const Hero = () => {
       className="w-full h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-white to-gray-50"
     >
       <div className="absolute inset-0 z-0 w-full h-full">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10 w-full h-full"></div>
+        <div className="absolute inset-0 bg-[url('https://static.wixstatic.com/media/9aed5a_c3342b57960045bf987afca120721474~mv2.png/v1/fill/w_888,h_494,al_c,lg_1,q_90/9aed5a_c3342b57960045bf987afca120721474~mv2.png')] bg-cover bg-center opacity-10 w-full h-full"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="flex justify-center mb-8">
             <div className="relative">
-              <Brain className="w-20 h-20 text-[#f9a31a]" />
-              <Network className="w-16 h-16 text-[#f9a31a] absolute -bottom-4 -right-4" />
+            <div className="flex-shrink-0">
+                  {/*  <img  src='src\imgs\Logo_-_Copy-removebg-preview.png' alt='AI Caravan'> </img> */}
+
+                  <span className="text-[#f9a31a] font-bold text-xl"> <img src={logo} height={300} width={300} alt="AI Caravan" /></span>
+                   
+
+          </div>
+
             </div>
           </div>
 
@@ -24,15 +30,16 @@ const Hero = () => {
           IEEE Computer Society R8 AI Caravan
           </h1>
 
-          <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            The Right to Knowledge and Practical Application in AI: Leaving No One Behind
+          <p className="text-xl sm:text-1.5xl text-gray-600 mb-12 max-w-3xl mx-auto">
+            The Right to Knowledge and Practical Application in Artificial Intelligence <br />
+            Leaving No One Behind
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
             <div className="bg-white/80 backdrop-blur-sm rounded-lg px-6 py-3 shadow-lg">
               <p className="text-gray-800 flex items-center gap-2">
                 <Calendar className="font-semibold"></Calendar>
-                 March–September 2025
+                 May–November 2025
               </p>
             </div>
 

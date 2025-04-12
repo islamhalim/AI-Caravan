@@ -6,22 +6,87 @@ const Partners = () => {
     {
       category: 'Main Partners',
       logos: [
-        {
-          name: 'IEEE Computer Society',
-          url: 'https://edu.ieee.org/pk-superior/wp-content/uploads/sites/900/2022/07/IEEE-CS_LogoTM-orange.png'
-        },
+
         {
           name: 'IEEE Learning Network ',
           url: 'https://www.ieee.org/content/dam/ieee-org/ieee/web/org/educ/931277.png'
         },
         {
-          name: 'IEEE Egypt Consultants Network',
-          url: 'https://media.licdn.com/dms/image/v2/D4D0BAQGCZCa5mreqTQ/company-logo_200_200/company-logo_200_200/0/1690727581768?e=2147483647&v=beta&t=iKHyLi_sT8b7QWJHIowH1TqWVbLn41AIUvY-vZor9DQ'
-        },
-        {
           name: 'University of Louisville',
           url: '/assets/univlouis.svg'
         },
+
+        {
+          name: 'IEEE Computer Society Egypt Chapter',
+          url: '/assets/Egypt_Section_Chapter-removebg-preview.png'
+        },
+        {
+          name: 'IEEE Egypt Consultants Network',
+          url: '/assets/IEEE_CN_Logo-removebg-preview (1).png'
+        },
+        {
+          name: 'ACM Cairo Chapter',
+          url: '/assets/acm-removebg-preview.png'
+        },
+        
+        {
+          name: 'WIE',
+          url: '/assets/wie-removebg-preview.png'
+        },
+
+        {
+          name: 'NP',
+          url: 'https://www.nu.edu.eg/sites/default/files/2022-06/nilepreneurs.png'
+        },
+
+        {
+          name: 'CIS',
+          url: '/assets/cis-removebg-preview.png'
+        },
+
+        {
+          name: 'NAID',
+          url: '/assets/naid-removebg-preview.png'
+        },
+
+        {
+          name: 'NU',
+          url: '/assets/nu-removebg-preview (1).png'
+        },
+
+        {
+          name: 'AUC',
+          url: 'https://niletesol.org/wp-content/uploads/2022/07/Group-7-1024x442.png'
+        },
+
+        {
+          name: 'TKH',
+          url: 'https://info.tkh.edu.eg/hs-fs/hubfs/Co%20-%20Branding%20English%20New-02-3.png?width=3507&height=675&name=Co%20-%20Branding%20English%20New-02-3.png'
+        },
+
+        {
+          name: 'EUI',
+          url: 'https://upload.wikimedia.org/wikipedia/ar/archive/c/cf/20231126094746%21%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D9%85%D8%B5%D8%B1_%D9%84%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D8%A9.png'
+        },
+
+        {
+          name: 'SU',
+          url: 'https://mohesr.gov.eg/Style%20Library/ar-sa/assets/img/logos/SUT_LOGO.png'
+        },
+
+        {
+          name: 'AASIT',
+          url: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju9cZH6pj9QKadtTGycWi6W4v6G7rMQ0r-XhNdkfE79tCLT4JTYgbEmFyYll52BGfg8XR45y7Ny3zetyaOPjSt7RqMc-g61Hc2nzEd2Ht5ETt9fTcNB5tTTBB1d4D6HZFtND5FIFk7I9sl/s1600/retreiveOnePIC.php.gif'
+        },
+
+        {
+          name: 'GIU',
+          url: 'https://www.smartcities40.com/images/GIU-High-Res..png'
+        },
+
+
+
+
       ]
     },
   ];

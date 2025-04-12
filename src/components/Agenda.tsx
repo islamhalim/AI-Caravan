@@ -4,16 +4,22 @@ import { Calendar, CheckCircle } from 'lucide-react';
 const phases = [
   {
     title: 'Preparation Phase',
-    date: 'March 2025',
+    date: 'March-April 2025',
     items: [
-      'Program launch and participant onboarding',
       'Initial assessments and group formation',
       'Resource distribution and platform setup'
     ]
   },
   {
+    title: 'Launch  Event',
+    date: '29th April 2025',
+    items: [
+      'Caravan launch and participant onboarding',
+    ]
+  },
+  {
     title: 'Training Phase',
-    date: 'April-May 2025',
+    date: 'May-July 2025',
     items: [
       'Intensive AI fundamentals workshops',
       'Specialized track training sessions',
@@ -22,7 +28,7 @@ const phases = [
   },
   {
     title: 'Practical Application',
-    date: 'June-August 2025',
+    date: 'August-October 2025',
     items: [
       'Project development and implementation',
       'GenZ Juniors competition',
@@ -30,8 +36,8 @@ const phases = [
     ]
   },
   {
-    title: 'Summit & Closure',
-    date: 'September 2025',
+    title: 'AI Summit & Closure',
+    date: 'November 2025',
     items: [
       'International conference',
       'Project showcase and competitions',
