@@ -13,7 +13,7 @@ const Partners = () => {
         },
         {
           name: 'University of Louisville',
-          url: 'https://drive.google.com/thumbnail?id=1Bwk1hTlmW3iGbwguxj9Vw85J1UdvJYRY&sz=w1000'
+          url: 'https://www.bestcollegesonline.org/wp-content/uploads/2020/09/University-of-Louisville-50-No-GRE-Master%E2%80%99s-in-Human-Resources-Online-Programs-2021.png'
         },
 
         {
