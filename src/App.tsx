@@ -8,7 +8,7 @@ import Outcomes from './components/Outcomes';
 import Registration from './components/Registration';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
-import Team from './components/team';
+import Team from './components/Team';
 import { LocationCard } from './components/Location';
 const locations = [
   {
