@@ -20,7 +20,7 @@ const Team = () => {
 
       {
         name: 'Islam Tharwat',
-        photo: 'https://drive.google.com/uc?export=download&id=1-haUsMHcv93A5-tqJVjOr8uasPOyrYqv'
+        photo: 'https://drive.google.com/thumbnail?id=1-haUsMHcv93A5-tqJVjOr8uasPOyrYqv&sz=w1000'
       },
 
     {
@@ -195,7 +195,7 @@ const Team = () => {
           </div>
 
           <p className="text-lg text-gray-600">
-            The passionate minds driving the AI Caravan forwards
+            The passionate minds driving the AI Caravan forward
           </p>
         </div>
 
