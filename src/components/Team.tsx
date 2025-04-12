@@ -195,7 +195,7 @@ const Team = () => {
           </div>
 
           <p className="text-lg text-gray-600">
-            The passionate minds driving the AI Caravan forward
+            The passionate minds driving the AI Caravan forwards
           </p>
         </div>
 
