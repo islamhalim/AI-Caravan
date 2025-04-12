@@ -13,25 +13,25 @@ const Partners = () => {
         },
         {
           name: 'University of Louisville',
-          url: '/assets/univlouis.svg'
+          url: 'https://drive.google.com/thumbnail?id=1Bwk1hTlmW3iGbwguxj9Vw85J1UdvJYRY&sz=w1000'
         },
 
         {
           name: 'IEEE Computer Society Egypt Chapter',
-          url: '/assets/Egypt_Section_Chapter-removebg-preview.png'
+          url: 'https://drive.google.com/thumbnail?id=1PPkjWlvHvZNdjTwxA3Z1STRCrlv2wlYQ&sz=w1000'
         },
         {
           name: 'IEEE Egypt Consultants Network',
-          url: '/assets/IEEE_CN_Logo-removebg-preview (1).png'
+          url: 'https://drive.google.com/thumbnail?id=1GFrca6dotR4QobT2bo8U0RMOo-K6-Uqn&sz=w1000'
         },
         {
           name: 'ACM Cairo Chapter',
-          url: '/assets/acm-removebg-preview.png'
+          url: 'https://drive.google.com/thumbnail?id=1tlHmffSEGoktsST4UanK6NCEjYf3NmkP&sz=w1000'
         },
         
         {
           name: 'WIE',
-          url: '/assets/wie-removebg-preview.png'
+          url: 'https://drive.google.com/thumbnail?id=12NsYUiFhyMPM6LNcWyGqMttv0FV1I-3Q&sz=w1000'
         },
 
         {
@@ -41,17 +41,17 @@ const Partners = () => {
 
         {
           name: 'CIS',
-          url: '/assets/cis-removebg-preview.png'
+          url: 'https://drive.google.com/thumbnail?id=1RC4fzh_hSX8WgQPLE9Ll-d158VXK_xFd&sz=w1000'
         },
 
         {
           name: 'NAID',
-          url: '/assets/naid-removebg-preview.png'
+          url: 'https://drive.google.com/thumbnail?id=1HLGuNzuWm34kqyIxFFxMemVL9EzZGBKy&sz=w1000'
         },
 
         {
           name: 'NU',
-          url: '/assets/nu-removebg-preview (1).png'
+          url: 'https://drive.google.com/thumbnail?id=1AJ3dXAYq-XBIczlAoWFkMx8iKK1zykJu&sz=w1000'
         },
 
         {
