@@ -32,6 +32,10 @@ import c28 from "./imgs/c28.png";
 import c29 from "./imgs/c29.png";
 import c30 from "./imgs/c30.png";
 import c31 from "./imgs/c31.png";
+import c31 from "./imgs/c31.png";
+import cc1 from "./imgs/cc1.JPG";
+import cc2 from "./imgs/cc2.JPG";
+import cc3 from "./imgs/cc3.JPG";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -57,6 +61,18 @@ const images: ImageItem[] = [
     original: c3,
     thumbnail: c3,
   },
+
+    {
+    original: cc1,
+    thumbnail: cc1,
+  },
+
+    {
+    original: cc2,
+    thumbnail: cc2,
+  },
+
+
   {
     original: c4,
     thumbnail: c4,
@@ -77,10 +93,12 @@ const images: ImageItem[] = [
     original: c8,
     thumbnail: c8,
   },
-  {
-    original: c9,
-    thumbnail: c9,
+      {
+    original: cc3,
+    thumbnail: cc3,
   },
+  {
+
   {
     original: c10,
     thumbnail: c10,
@@ -96,6 +114,9 @@ const images: ImageItem[] = [
   {
     original: c13,
     thumbnail: c13,
+  },
+      original: c9,
+    thumbnail: c9,
   },
   {
     original: c14,
