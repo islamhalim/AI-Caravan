@@ -33,9 +33,9 @@ import c29 from "./imgs/c29.png";
 import c30 from "./imgs/c30.png";
 import c31 from "./imgs/c31.png";
 import c31 from "./imgs/c31.png";
-import cc1 from "./imgs/cc1.JPG";
-import cc2 from "./imgs/cc2.JPG";
-import cc3 from "./imgs/cc3.JPG";
+import cc1 from "./imgs/cc1.png";
+import cc2 from "./imgs/cc2.png";
+import cc3 from "./imgs/cc3.png";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
