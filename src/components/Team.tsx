@@ -115,6 +115,11 @@ const Team = () => {
         photo: 'https://itcs.nu.edu.eg/sites/it.nu.edu/files/2022-12/whatsapp_image_2022-12-20_at_11.46.00_pm.jpeg'
       },
 
+          {
+        name: 'Ahmed H. Madian',
+        photo: 'https://ieee-cas.org/files/ieeecass/styles/responsive_4_5_760w/public/images/contacts/madian_pic.jpeg?h=4e06fa8c&itok=byQ4aady'
+      },
+
       {
         name: 'Sherin Youssef ',
         photo: 'https://attend.ieee.org/wieils-egypt-2024/wp-content/uploads/sites/649/MyPhoto-SherinYoussef-IMG-20220224-WA0014-200x200.jpg'
@@ -164,6 +169,11 @@ const Team = () => {
       {
         name: 'Mohamed Mostafa Fouad',
         photo: 'https://aast.edu/getData/retreiveOnePICStaff.php?img=530_972_My%20pic2020_1.jpg'
+      },
+
+          {
+        name: 'Lobna A. Said',
+        photo: 'https://nu.edu.eg/sites/default/files/2023-06/dr.lobna_.png'
       },
 
       {
