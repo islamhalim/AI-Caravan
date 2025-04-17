@@ -34,30 +34,36 @@ const Partners = () => {
           url: 'https://drive.google.com/thumbnail?id=1tlHmffSEGoktsST4UanK6NCEjYf3NmkP&sz=w1000'
         },
         
-        {
-          name: 'WIE',
-          url: 'https://drive.google.com/thumbnail?id=12NsYUiFhyMPM6LNcWyGqMttv0FV1I-3Q&sz=w1000'
+     {
+          name: 'CIS',
+          url: 'https://drive.google.com/thumbnail?id=1RC4fzh_hSX8WgQPLE9Ll-d158VXK_xFd&sz=w1000'
         },
 
-        {
+                {
           name: 'NP',
           url: 'https://www.nu.edu.eg/sites/default/files/2022-06/nilepreneurs.png'
         },
 
-        {
-          name: 'CIS',
-          url: 'https://drive.google.com/thumbnail?id=1RC4fzh_hSX8WgQPLE9Ll-d158VXK_xFd&sz=w1000'
+                {
+          name: 'WIE',
+          url: 'https://drive.google.com/thumbnail?id=12NsYUiFhyMPM6LNcWyGqMttv0FV1I-3Q&sz=w1000'
         },
+
+
+
+
 
          {
           name: 'IEEE Computational Intelligence Society-Egypt Chapter',
           url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwcpN2_lho7ip4ALHVZ-Z74PVapq8SbNszCA&s'
         },
 
-      {
+              {
           name: 'FDC Summit',
           url: 'https://ems.eventimarketing.com/storage/logo-photos/UElqJzdRBsmIChKia4zkyzFFir6tjaIL3TYXCJaZ.png'
         },
+
+
 
         {
           name: 'NAID',
