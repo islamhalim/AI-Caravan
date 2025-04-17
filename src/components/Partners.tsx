@@ -17,6 +17,11 @@ const Partners = () => {
         },
 
         {
+          name: 'IEEE Egypt Section',
+          url: 'https://ieee.org.eg/wp-content/uploads/2022/04/cropped-logo.png'
+        },
+
+        {
           name: 'IEEE Computer Society Egypt Chapter',
           url: 'https://drive.google.com/thumbnail?id=1PPkjWlvHvZNdjTwxA3Z1STRCrlv2wlYQ&sz=w1000'
         },
@@ -42,6 +47,16 @@ const Partners = () => {
         {
           name: 'CIS',
           url: 'https://drive.google.com/thumbnail?id=1RC4fzh_hSX8WgQPLE9Ll-d158VXK_xFd&sz=w1000'
+        },
+
+         {
+          name: 'IEEE Computational Intelligence Society-Egypt Chapter',
+          url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwcpN2_lho7ip4ALHVZ-Z74PVapq8SbNszCA&s'
+        },
+
+      {
+          name: 'FDC Summit',
+          url: 'https://ems.eventimarketing.com/storage/logo-photos/UElqJzdRBsmIChKia4zkyzFFir6tjaIL3TYXCJaZ.png'
         },
 
         {
