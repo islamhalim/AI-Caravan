@@ -49,10 +49,6 @@ const Partners = () => {
           url: 'https://drive.google.com/thumbnail?id=12NsYUiFhyMPM6LNcWyGqMttv0FV1I-3Q&sz=w1000'
         },
 
-
-
-
-
          {
           name: 'IEEE Computational Intelligence Society-Egypt Chapter',
           url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwcpN2_lho7ip4ALHVZ-Z74PVapq8SbNszCA&s'
@@ -103,6 +99,13 @@ const Partners = () => {
           name: 'GIU',
           url: 'https://www.smartcities40.com/images/GIU-High-Res..png'
         },
+
+                {
+          name: 'Egyptian Chinese University',
+          url: 'https://www.vhv.rs/dpng/d/593-5935785_egyptian-chinese-university-logo-hd-png-download.png'
+        },
+
+        
 
 
 
