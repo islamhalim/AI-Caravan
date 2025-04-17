@@ -102,7 +102,7 @@ const Partners = () => {
 
                 {
           name: 'Egyptian Chinese University',
-          url: 'https://www.vhv.rs/dpng/d/593-5935785_egyptian-chinese-university-logo-hd-png-download.png'
+          url: 'https://ecu.edu.eg/wp-content/uploads/2022/05/ECU-Logo.png'
         },
 
         
