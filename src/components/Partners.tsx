@@ -69,6 +69,21 @@ const Partners = () => {
           url: 'https://drive.google.com/thumbnail?id=1AJ3dXAYq-XBIczlAoWFkMx8iKK1zykJu&sz=w1000'
         },
 
+                {
+          name: 'EUI',
+          url: 'https://upload.wikimedia.org/wikipedia/ar/archive/c/cf/20231126094746%21%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D9%85%D8%B5%D8%B1_%D9%84%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D8%A9.png'
+        },
+
+       {
+          name: 'SU',
+          url: 'https://mohesr.gov.eg/Style%20Library/ar-sa/assets/img/logos/SUT_LOGO.png'
+        },
+      
+        {
+          name: 'AASIT',
+          url: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju9cZH6pj9QKadtTGycWi6W4v6G7rMQ0r-XhNdkfE79tCLT4JTYgbEmFyYll52BGfg8XR45y7Ny3zetyaOPjSt7RqMc-g61Hc2nzEd2Ht5ETt9fTcNB5tTTBB1d4D6HZFtND5FIFk7I9sl/s1600/retreiveOnePIC.php.gif'
+        },
+
         {
           name: 'AUC',
           url: 'https://niletesol.org/wp-content/uploads/2022/07/Group-7-1024x442.png'
@@ -78,22 +93,6 @@ const Partners = () => {
           name: 'TKH',
           url: 'https://info.tkh.edu.eg/hs-fs/hubfs/Co%20-%20Branding%20English%20New-02-3.png?width=3507&height=675&name=Co%20-%20Branding%20English%20New-02-3.png'
         },
-
-        {
-          name: 'EUI',
-          url: 'https://upload.wikimedia.org/wikipedia/ar/archive/c/cf/20231126094746%21%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D9%85%D8%B5%D8%B1_%D9%84%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D8%A9.png'
-        },
-
-        {
-          name: 'SU',
-          url: 'https://mohesr.gov.eg/Style%20Library/ar-sa/assets/img/logos/SUT_LOGO.png'
-        },
-
-        {
-          name: 'AASIT',
-          url: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju9cZH6pj9QKadtTGycWi6W4v6G7rMQ0r-XhNdkfE79tCLT4JTYgbEmFyYll52BGfg8XR45y7Ny3zetyaOPjSt7RqMc-g61Hc2nzEd2Ht5ETt9fTcNB5tTTBB1d4D6HZFtND5FIFk7I9sl/s1600/retreiveOnePIC.php.gif'
-        },
-
         {
           name: 'GIU',
           url: 'https://www.smartcities40.com/images/GIU-High-Res..png'
