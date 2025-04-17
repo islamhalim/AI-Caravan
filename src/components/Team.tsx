@@ -181,9 +181,14 @@ const Team = () => {
         photo: 'https://mot.nu.edu.eg/sites/gs.nu.edu/files/2022-09/heba-ka3od.jpg'
       },
 
-      {
+          {
         name: 'Haitham Ghalwash',
         photo: 'https://media.licdn.com/dms/image/v2/C4E03AQE4UlXoReoX4Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1590521864181?e=2147483647&v=beta&t=ujVhkSl_AuKd1j3k4gp_VhjjrYuL2s-L4ugvuD_mRqI'
+      },
+
+      {
+        name: 'Hady H. Fayek',
+        photo: 'https://media.licdn.com/dms/image/v2/D4D03AQHWBHhn3PBp5Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725275878976?e=2147483647&v=beta&t=XYW25hh5KJFz5NPWadzDy3DCpyK_-wqatAGP8fhSf4o'
       },
 
       {
