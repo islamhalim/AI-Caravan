@@ -94,9 +94,15 @@ const Team = () => {
       },
 
       {
-        name: 'Ahmed Hassan Yousef ',
+        name: 'Ahmed Hassan Yousef',
         photo: 'https://media.licdn.com/dms/image/v2/C5603AQGXpv6aRVcPhg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647036950363?e=2147483647&v=beta&t=OH4T5yECcX43Quw-VAUqQN2g-RPTT-g_3qhjNOjBXSQ'
       },
+
+      {
+        name: 'Ahmed Abdel-Hafez',
+        photo: 'https://platforms-root-technologies.com/icec-2024/wp-content/uploads/2024/10/Ahmed-Ali-Abdel-Hafez.gif'
+      },
+
 
 
       {
@@ -189,6 +195,11 @@ const Team = () => {
       {
         name: 'Hady H. Fayek',
         photo: 'https://media.licdn.com/dms/image/v2/D4D03AQHWBHhn3PBp5Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725275878976?e=2147483647&v=beta&t=XYW25hh5KJFz5NPWadzDy3DCpyK_-wqatAGP8fhSf4o'
+      },
+
+     {
+        name: 'Mohamed Aly Mohamed',
+        photo: 'https://media.licdn.com/dms/image/v2/D5603AQFo_myPz4bnPQ/profile-displayphoto-shrink_400_400/B56ZTxFsNFGoAk-/0/1739211589775?e=2147483647&v=beta&t=i-XQxAPY3F9cE0Szo2ngCTWQVVEBfuCGI_YAsJK1shU'
       },
 
       {
