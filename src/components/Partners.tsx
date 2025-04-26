@@ -105,6 +105,11 @@ const Partners = () => {
           url: 'https://ecu.edu.eg/wp-content/uploads/2022/05/ECU-Logo.png'
         },
 
+                        {
+          name: 'Ahram Canadian University',
+          url: 'https://acu.edu.eg/App_Themes/ACU/images/acu-logo.png'
+        },
+
         
 
 
