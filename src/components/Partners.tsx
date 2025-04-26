@@ -95,10 +95,7 @@ const Partners = () => {
           name: 'TKH',
           url: 'https://info.tkh.edu.eg/hs-fs/hubfs/Co%20-%20Branding%20English%20New-02-3.png?width=3507&height=675&name=Co%20-%20Branding%20English%20New-02-3.png'
         },
-        {
-          name: 'GIU',
-          url: 'https://www.smartcities40.com/images/GIU-High-Res..png'
-        },
+
 
                 {
           name: 'Egyptian Chinese University',
