@@ -96,6 +96,11 @@ const Partners = () => {
           url: 'https://info.tkh.edu.eg/hs-fs/hubfs/Co%20-%20Branding%20English%20New-02-3.png?width=3507&height=675&name=Co%20-%20Branding%20English%20New-02-3.png'
         },
 
+     {
+          name: 'GUC',
+          url: 'https://www.guc.edu.eg/img/guc_logo_og.png'
+        },
+
 
                 {
           name: 'Egyptian Chinese University',
@@ -105,6 +110,11 @@ const Partners = () => {
                         {
           name: 'Ahram Canadian University',
           url: 'https://acu.edu.eg/App_Themes/ACU/images/acu-logo.png'
+        },
+
+                                {
+          name: 'BUC',
+          url: 'https://www.prototypesforhumanity.com/wp-content/uploads/2021/10/LOGO-BUC-01.png'
         },
 
         
