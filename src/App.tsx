@@ -9,6 +9,8 @@ import Registration from './components/Registration';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import Team from './components/Team';
+import RecordedVideos from './components/RecordedVideos';
+import Highlights from './components/Highlights';
 import { LocationCard } from './components/Location';
 const locations = [
   {
@@ -39,6 +41,8 @@ function App() {
     <div >
       <Navbar />
       <Hero />
+      <RecordedVideos/>
+      <Highlights/>
       <Gallery />
       <About />
       <Partners />
