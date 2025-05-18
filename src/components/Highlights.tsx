@@ -29,6 +29,7 @@ const images = [
 const Highlights: React.FC = () => {
   return (
     <section id="highlights" className="py-10 bg-white">
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2"> FDC - 8th May 2025</h2>
       <div className="max-w-5xl mx-auto px-4">
         FDC - 8th May 2025
         <ImageGallery
