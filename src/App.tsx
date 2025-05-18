@@ -11,6 +11,7 @@ import Gallery from './components/Gallery';
 import Team from './components/Team';
 import RecordedVideos from './components/RecordedVideos';
 import Highlights from './components/Highlights';
+import NAID from './components/NAID';
 import { LocationCard } from './components/Location';
 const locations = [
   {
@@ -42,6 +43,7 @@ function App() {
       <Navbar />
       <Hero />
       <RecordedVideos/>
+      <NAID/>
       <Highlights/>
       <Gallery />
       <About />
