@@ -30,6 +30,7 @@ const Highlights: React.FC = () => {
   return (
     <section id="highlights" className="py-10 bg-white">
       <div className="max-w-5xl mx-auto px-4">
+        FDC - 8th May 2025
         <ImageGallery
           items={images}
           autoPlay={true}
