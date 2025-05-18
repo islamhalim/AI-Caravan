@@ -5,22 +5,23 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import "./ImageGalleryStyles.css"; // Your custom file
 
 // Import all images
-import u0 from "./imgs/u0.png";
-import u1 from "./imgs/u1.png";
-import u2 from "./imgs/u2.png";
-import u3 from "./imgs/u3.png";
-import u4 from "./imgs/u4.png";
-import u5 from "./imgs/u5.png";
-import u6 from "./imgs/u6.png";
-import u7 from "./imgs/u7.png";
-import u8 from "./imgs/u8.png";
-import u9 from "./imgs/u9.png";
-import u10 from "./imgs/u10.png";
+import u0 from "./imgs/u0.jpg";
+import u1 from "./imgs/u1.jpg";
+import u2 from "./imgs/u2.jpg";
+import u3 from "./imgs/u3.jpg";
+import u4 from "./imgs/u4.jpg";
+import u5 from "./imgs/u5.jpg";
+import u6 from "./imgs/u6.jpg";
+import u7 from "./imgs/u7.jpg";
+import u8 from "./imgs/u8.jpg";
+import u9 from "./imgs/u9.jpg";
+import u10 from "./imgs/u10.jpg";
+import u11 from "./imgs/u11.jpg";
 
 
 // Add images to array
 const images = [
-  u0, u1, u2, u3, u4, u5, u6, u7, u8, u9, u10].map((img) => ({
+  u0, u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11].map((img) => ({
   original: img,
   thumbnail: img,
 }));
