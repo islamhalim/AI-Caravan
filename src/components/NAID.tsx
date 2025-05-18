@@ -19,7 +19,7 @@ import n10 from "./imgs/n10.png";
 
 // Add images to array
 const images = [
-  n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, d10].map((img) => ({
+  n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, n10].map((img) => ({
   original: img,
   thumbnail: img,
 }));
