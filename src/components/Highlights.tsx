@@ -30,7 +30,7 @@ const Highlights: React.FC = () => {
   return (
     <section id="highlights" className="py-10 bg-white">
        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-4">
           FDC - 8th May 2025
           </h2>
        </div>
