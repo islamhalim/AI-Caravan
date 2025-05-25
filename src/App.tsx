@@ -44,11 +44,11 @@ function App() {
     <div >
       <Navbar />
       <Hero />
-      <Highlights/>
       <RecordedVideos/>
       <GUC/>
       <AUC/>
       <NAID/>
+       <Highlights/>
       <Gallery />
       <About />
       <Partners />
