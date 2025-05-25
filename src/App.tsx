@@ -45,11 +45,11 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights/>
+      <RecordedVideos/>
       <GUC/>
       <AUC/>
       <NAID/>
       <Gallery />
-      <RecordedVideos/>
       <About />
       <Partners />
       <Agenda />
