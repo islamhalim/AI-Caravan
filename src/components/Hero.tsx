@@ -27,8 +27,9 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-          IEEE Computer Society AI Caravan 2025 (R8 Edition)
+          IEEE Computer Society AI Caravan 2025 
           </h1>
+          <h3> (R8 Edition) </h3>
 
           <p className="text-xl sm:text-1.5xl text-gray-600 mb-12 max-w-3xl mx-auto">
             The Right to Knowledge and Practical Application in Artificial Intelligence <br />
