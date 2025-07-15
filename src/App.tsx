@@ -47,15 +47,15 @@ function App() {
     <div >
       <Navbar />
       <Hero />
-      <RecordedVideos/>
-       <SUT/> 
-      <CS/>
-       <NU/>
-      <GUC/>
-      <AUC/>
-      <NAID/>
+       <Gallery />
+       <RecordedVideos/>
        <Highlights/>
-      <Gallery />
+       <NAID/>
+        <AUC/>
+        <GUC/>
+        <NU/>
+       <CS/>
+      <SUT/>
       <About />
       <Partners />
       <Agenda />
