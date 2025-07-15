@@ -15,6 +15,8 @@ import NAID from './components/NAID';
 import AUC from './components/AUC';
 import GUC from './components/GUC';
 import NU from './components/NU';
+import CS from './components/CS';
+import SUT from './components/SUT';
 import { LocationCard } from './components/Location';
 const locations = [
   {
@@ -46,6 +48,8 @@ function App() {
       <Navbar />
       <Hero />
       <RecordedVideos/>
+       <SUT/> 
+      <CS/>
        <NU/>
       <GUC/>
       <AUC/>
