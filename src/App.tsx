@@ -57,7 +57,6 @@ function App() {
         <NU/>
          <CS/>
         <SUT/>
-        <SUT/>
         <AASTMT/>
         <About />
       <Partners />
