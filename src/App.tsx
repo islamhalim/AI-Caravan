@@ -55,11 +55,11 @@ function App() {
         <AUC/>
         <GUC/>
         <NU/>
-       <CS/>
-      <SUT/>
-      <SUT/>
-      <AASTMT/>
-      <About />
+         <CS/>
+        <SUT/>
+        <SUT/>
+        <AASTMT/>
+        <About />
       <Partners />
       <Agenda />
       <Team />
