@@ -17,6 +17,7 @@ import GUC from './components/GUC';
 import NU from './components/NU';
 import CS from './components/CS';
 import SUT from './components/SUT';
+import AASTMT from './components/AASTMT';
 
 import { LocationCard } from './components/Location';
 const locations = [
@@ -56,6 +57,8 @@ function App() {
         <GUC/>
         <NU/>
          <CS/>
+         <SUT/>
+         <AASTMT/>
         <About />
       <Partners />
       <Agenda />
