@@ -18,6 +18,7 @@ import NU from './components/NU';
 import CS from './components/CS';
 import SUT from './components/SUT';
 import AASTMT from './components/AASTMT';
+import TKH from './components/TKH';
 
 
 import { LocationCard } from './components/Location';
@@ -52,6 +53,7 @@ function App() {
       <Hero />
        <Gallery />
        <RecordedVideos/>
+      <TKH/>
        <Highlights/>
        <NAID/>
         <AUC/>
