@@ -23,7 +23,7 @@ import AAST16 from "./imgs/AAST16.jpg";
 import AAST17 from "./imgs/AAST17.jpg";
 import AAST18 from "./imgs/AAST18.jpg";
 import AAST19 from "./imgs/AAST19.jpg";
-import AAST20 from "./imgs/AAST20.jpg";
+import AAST20 from "./imgs/AAST20.jpeg";
 
 // Add images to array
 const images = [
