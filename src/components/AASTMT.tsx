@@ -19,7 +19,7 @@ import AAST12 from "./imgs/AAST12.jpg";
 import AAST13 from "./imgs/AAST13.jpg";
 import AAST14 from "./imgs/AAST14.jpg";
 import AAST15 from "./imgs/AAST15.jpg";
-import AAST16 from "./imgs/AAST16.jpg";
+import AAST16 from "./imgs/AAST16.jpeg";
 import AAST17 from "./imgs/AAST17.jpg";
 import AAST18 from "./imgs/AAST18.jpg";
 import AAST19 from "./imgs/AAST19.jpg";
