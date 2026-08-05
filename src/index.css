@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes bgMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-bgMove {
+  animation: bgMove 30s ease-in-out infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes logo-fade {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  18% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-logo-fade {
+  animation: logo-fade 15s ease-in-out infinite;
+}
