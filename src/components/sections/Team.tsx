@@ -98,7 +98,7 @@ const Team = () => {
 
      {
         name: 'Atef El Fekky',
-        photo: 'https://ieeecsr8aicaravan.site/imgs/Atef.webp'
+        photo: 'https://img.youm7.com/large/s120131523163.jpg'
       },
 
       {
