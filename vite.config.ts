@@ -11,6 +11,7 @@ export default defineConfig({
       overlay: true,
     },
   },
+  base: '/AI-Caravan/',   // <-- Add this line
   build: {
     outDir: 'dist',
   },
