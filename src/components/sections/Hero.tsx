@@ -108,7 +108,7 @@ const Hero = () => {
             </span>
           </p>
           <p className="text-gray-700 text-xs sm:text-sm">
-            <strong>Joint Collaboration:</strong> AUC & Nile University
+            <strong>Joint Organization:</strong> AUC & Nile University
           </p>
           <p className="text-gray-700 italic mt-0.5 text-xs sm:text-sm">
             <strong>Theme:</strong> “Harnessing AI for Sustainable Economic Growth”
