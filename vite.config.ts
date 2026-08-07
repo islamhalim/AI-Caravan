@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+
   server: {
     port: 5173,
     strictPort: false,
@@ -11,7 +12,10 @@ export default defineConfig({
       overlay: true,
     },
   },
-  base: '/AI-Caravan/',   // <-- Add this line
+
+  // Netlify serves the application from the domain root
+  base: '/',
+
   build: {
     outDir: 'dist',
   },
