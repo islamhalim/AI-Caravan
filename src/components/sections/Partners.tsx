@@ -16,7 +16,7 @@ const partnersData: { category: PartnerCategory, icon: React.FC<any>, logos: { n
     logos: [
       {
         name: 'IEEE Learning Network ',
-        url: 'https://www.ieee.org/content/dam/ieee-org/ieee/web/org/educ/931277.png'
+        url: 'https://mga.ieee.org/images/files/ILN.png'
       },
       {
         name: 'University of Louisville',
@@ -86,12 +86,9 @@ const partnersData: { category: PartnerCategory, icon: React.FC<any>, logos: { n
 
       {
         name: 'BUC',
-        url: 'https://www.prototypesforhumanity.com/wp-content/uploads/2021/10/LOGO-BUC-01.png'
+        url: 'https://buc-univercity.com/aa.jpeg'
       },
-            {
-        name: 'Ahram Canadian University',
-        url: 'https://acu.edu.eg/App_Themes/ACU/images/acu-logo.png'
-      },
+
 
             {
         name: 'CIS',
@@ -109,10 +106,7 @@ const partnersData: { category: PartnerCategory, icon: React.FC<any>, logos: { n
     category: 'Community Partners',
     icon: Users,
     logos: [
-           {
-    name: 'IEEE R8 WIE',
-        url: 'https://ieeer8.org/wp-content/uploads/2017/08/3.png'
-      },
+
       {
         name: 'IEEE Egypt Section',
         url: 'https://ieee.org.eg/wp-content/uploads/2022/04/cropped-logo.png'
@@ -123,7 +117,7 @@ const partnersData: { category: PartnerCategory, icon: React.FC<any>, logos: { n
       },
       {
         name: 'IEEE Computer Society Tunsia Chapter',
-        url: ''
+        url: 'https://computer.ieee.tn/logos/cs%20tn%20section.webp'
       },
       {
         name: 'IEEE Computer Society Kenya Chapter',
@@ -131,7 +125,7 @@ const partnersData: { category: PartnerCategory, icon: React.FC<any>, logos: { n
       },
       {
         name: 'FDC Summit', // Assuming this is a media/event partner
-        url: 'https://fdcsummit.org/storage/logo-photos/UElqJzdRBsmIChKia4zkyzFFir6tjaIL3TYXCJaZ.png'
+        url: 'https://itida.gov.eg/PublishingImages/logo/fdc-summit.png'
       },
       {
         name: 'ATIC',
@@ -145,6 +139,11 @@ const partnersData: { category: PartnerCategory, icon: React.FC<any>, logos: { n
       {
         name: 'ACM Cairo Chapter',
         url: 'https://drive.google.com/thumbnail?id=1tlHmffSEGoktsST4UanK6NCEjYf3NmkP&sz=w1000'
+      },
+
+                 {
+    name: 'IEEE R8 WIE',
+        url: 'https://ieeer8.org/wp-content/uploads/2017/08/3.png'
       },
 
 

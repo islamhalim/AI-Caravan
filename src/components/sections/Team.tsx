@@ -61,7 +61,7 @@ const Team = () => {
 
       {
         name: 'David Koehler',
-        photo: 'https://ieeecsr8aicaravan.site/imgs/David.jpg'
+        photo: 'https://media.licdn.com/dms/image/v2/C4E03AQH_iZrORKzwOg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1565003950184?e=1787788800&v=beta&t=eRFdkPQyogCQ51Tr8WmEKDQdaAyeFs9JIkzJSSxTfdg'
       },
 
       {
@@ -139,7 +139,7 @@ const Team = () => {
 
       {
         name: 'Eslam Moussa',
-        photo: 'https://ieeecsr8aicaravan.site/imgs/IslamMousa.jpg'
+        photo: 'https://media.licdn.com/dms/image/v2/D4D03AQGg3p7Q-7rVbg/profile-displayphoto-scale_400_400/B4DZkgJIyXIcAg-/0/1757180891385?e=1787788800&v=beta&t=3-jfRJlMAhMfT2pJIiAhWq_N9k_5L-hldO8EM3_uDAY'
       },
 
       {
@@ -162,7 +162,7 @@ const Team = () => {
 
       {
         name: 'Hadeer Ehab',
-        photo: 'https://acu.edu.eg/media/news/2023/8/21/2023-638282089904030685-403.jpg'
+        photo: 'https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SEwt-LQAAAAJ&citpid=1'
       },
 
       {

@@ -17,6 +17,7 @@ import CS2 from '../galleries/CS2';
 import NU2 from '../galleries/NU2';
 import Kenya from '../galleries/Kenya';
 import Tunisia from '../galleries/Tunisia';
+import Summit from '../galleries/Summit';
 
 
 const Activities = () => {
@@ -27,6 +28,7 @@ const Activities = () => {
         subtitle="Explore our comprehensive range of professional training sessions and student workshops across multiple institutions."
       />
       <SectionDivider title="Professional Activities" />
+      <Summit />
       <Kenya />
       <Tunisia />
       <EUI />

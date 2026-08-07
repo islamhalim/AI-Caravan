@@ -13,28 +13,7 @@ const SummitInfo: React.FC = () => {
       affiliation: "",
       link: "https://www.amdarwish.com/",
     },
-    {
-      img: "/imgs/grace.jpg",
-      name: "Grace A. Lewis",
-      title: "IEEE Computer Society 2026 President and Principal Researcher",
-      affiliation: "Carnegie Mellon Software Engineering Institute (SEI), USA",
-      link: "https://www.andrew.cmu.edu/user/gritter/lewis.html",
-    },
-    {
-      img: "/imgs/Yuhong.jpg",
-      name: "Yuhong Liu",
-      title: "IEEE Computer Society GAC Chair and Associate Professor",
-      affiliation: "Santa Clara University, USA",
-      link: "https://www.scu.edu/engineering/faculty/liu-yuhong/",
-    },
-    {
-      img: "/imgs/MahmoudALLAM.webp",
-      name: "Mahmoud Allam",
-      title: "Dean of the School of Continuing Education",
-      affiliation: "The American University in Cairo (AUC)",
-      link: "https://www.aucegypt.edu/fac/mahmoud-allam",
-    },
-    {
+        {
       img: "/imgs/David.jpg",
       name: "David Koehler",
       title: "Senior IEEE Volunteer/Executive Advisor",
@@ -42,12 +21,31 @@ const SummitInfo: React.FC = () => {
       link: "https://www.linkedin.com/in/davidakoehler",
     },
     {
-      img: "/imgs/SherifKishk.png",
-      name: "Sherif Kishk",
-      title: "Assistant Minister for Smart Governance",
-      affiliation: "Ministry of Higher Education and Scientific Research",
-      link: "https://eg.linkedin.com/in/kishk-sherif",
+      img: "/imgs/grace.jpg",
+      name: "Grace A. Lewis",
+      title: "IEEE Computer Society 2026 President and Principal Researcher",
+      affiliation: "Carnegie Mellon Software Engineering Institute (SEI), USA",
+      link: "https://www.andrew.cmu.edu/user/gritter/lewis.html",
     },
+
+        {
+      img: "/imgs/Joaquim.jpeg",
+      name: "Joaquim Jorge",
+      title: "UNESCO Chair on AI & XR at IST",
+      affiliation: "Universidade de Lisboa, Portugal",
+      link: "https://web.tecnico.ulisboa.pt/jorgej/ieeecs",
+    },
+
+    {
+      img: "/imgs/Yuhong.jpg",
+      name: "Yuhong Liu",
+      title: "IEEE Computer Society GAC Chair and Associate Professor",
+      affiliation: "Santa Clara University, USA",
+      link: "https://www.scu.edu/engineering/faculty/liu-yuhong/",
+    },
+
+
+
     {
       img: "/imgs/AhmedMahdy.jpg",
       name: "Ahmed Hazem El-Mahdy",
@@ -92,11 +90,11 @@ const SummitInfo: React.FC = () => {
     },
 
         {
-      img: "/imgs/sherifhazem.jpg",
-      name: "Sherif Hazem",
-      title: "CBE Sub Governor, Cybersecurity Sector",
-      affiliation:"Central Bank of Egypt (CBE)",
-      link: "https://www.linkedin.com/in/sherifhazem/",
+      img: "/imgs/ehabyasser.jpg",
+      name: "Yasser Ehab",
+      title: "Deputy Minister of Finance for Information Technology",
+      affiliation:"Ministry of Finance (MOF)",
+      link: "https://eg.linkedin.com/in/yasser-ehab-b4866027",
     },
     {
       img: "/imgs/Ahmed Abdel-Hafez.jpg",
@@ -105,13 +103,7 @@ const SummitInfo: React.FC = () => {
       affiliation:"National Telecommunication Regulatory Authority (NTRA)",
       link: "https://www.tra.gov.eg/en/atrc-instructor/dr-ahmed-abdel-hafez/",
     },
-    {
-      img: "/imgs/Joaquim.jpeg",
-      name: "Joaquim Jorge",
-      title: "UNESCO Chair on AI & XR at IST",
-      affiliation: "Universidade de Lisboa, Portugal",
-      link: "https://web.tecnico.ulisboa.pt/jorgej/ieeecs",
-    },
+
     {
       img: "/imgs/AbdEl-Monem.jpg",
       name: "AbdEl-Monem El-Sharkawy",
@@ -147,13 +139,7 @@ const SummitInfo: React.FC = () => {
       affiliation: "The American University in Cairo (AUC)",
       link: "https://eg.linkedin.com/in/doaa-salem-bashanfar-68a7b822",
     },
-    {
-      img: "/imgs/Shivam.jpg",
-      name: "Shivam Abhilash",
-      title: "Enterprise (AI) Architect",
-      affiliation: "ZS Associates, India",
-      link: "https://shivamabhilash.com/",
-    },
+
     {
       img: "/imgs/EsamElGohary.jpg",
       name: "Esam ElGohary",
@@ -168,13 +154,7 @@ const SummitInfo: React.FC = () => {
       affiliation: "Nile University",
       link: "https://www.nu.edu.eg/academic-staff/prof-walid-al-atabany",
     },
-    {
-      img: "/imgs/emna.jpg",
-      name: "Emna AMRI",
-      title: "Chair/Associate Professor",
-      affiliation: "IEEE R8 WIE/Polytech'Annecy Chambér, France",
-      link: "https://www.univ-smb.fr/listic/en/presentation_listic/membres/post-docs-doctorants/emna-amri/",
-    },
+
     {
       img: "/imgs/MohamedFouad.jpg",
       name: "Mohamed Mostafa Fouad",
@@ -188,6 +168,13 @@ const SummitInfo: React.FC = () => {
       title: "Assistant Professor of Clinical Pharmacy",
       affiliation: "British University in Egypt (BUE)",
       link: "https://eg.linkedin.com/in/hadeer-ehab-5ba6862a1",
+    },
+        {
+      img: "/imgs/Mousa Al-Akhras.jpeg",
+      name: "Mousa Al-Akhras",
+      title: "Associate Professor of Artificial Intelligence and Computer Information Systems",
+      affiliation: "University of Jordan",
+      link: "https://jo.linkedin.com/in/mousa-al-akhras-56645316",
     },
     {
       img: "/imgs/BatoulHaidar.jpeg",
@@ -209,6 +196,21 @@ const SummitInfo: React.FC = () => {
       title: "Founder and CEO",
       affiliation: "TENET",
       link: "https://eg.linkedin.com/in/eslammoussamba",
+    },
+    
+    {
+      img: "/imgs/Kareem Safwat (2) (1).png",
+      name: "Kareem Safwat",
+      title: "Senior Systems Engineer",
+      affiliation: "Fortinet",
+      link: "https://eg.linkedin.com/in/kareem-elrazzaz",
+    },
+    {
+      img: "/imgs/Karim Sheba (2).jpeg",
+      name: "Karim Sheba",
+      title: "Team Lead Systems Engineering",
+      affiliation: "Fortinet",
+      link: "https://eg.linkedin.com/in/karim-sheba-04a55838",
     },
     {
       img: "/imgs/AhmedSaleh.png",
@@ -321,7 +323,39 @@ const SummitInfo: React.FC = () => {
     >
       <div className="max-w-6xl mx-auto px-6 text-center">
         
-        {/* Summit Header */}
+
+
+        {/* 2025 Journey Highlights */}
+        <motion.div
+          className="mb-20"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+        >
+          <Play className="w-12 h-12 text-[#f9a31a] mx-auto mb-4" />
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            The AI Caravan 2025 Journey
+          </h2>
+          <p className="max-w-3xl mx-auto mb-8 text-lg leading-relaxed text-gray-700">
+            Relive the key moments, activities, and achievements that shaped the
+            IEEE Computer Society AI Caravan throughout 2025.
+          </p>
+
+          <div className="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl border border-gray-200 bg-black shadow-2xl">
+            <div className="relative w-full pb-[56.25%]">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://drive.google.com/file/d/1QpcPKDpWJOf9-GIjCeCnJEOUtHTNpM3C/preview"
+                title="IEEE Computer Society AI Caravan 2025 Journey Highlights"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </motion.div>
+
+                {/* Summit Header */}
         <motion.div 
           className="mb-16"
           initial={{ opacity: 0, y: 50 }}
@@ -346,7 +380,12 @@ const SummitInfo: React.FC = () => {
             />
           </motion.div>
           <p className="text-lg text-[#f9a31a] font-semibold mt-4">
-            (R8 Edition – Cairo, Egypt)
+            (R8 Edition â€“ Cairo, Egypt)
+          </p>
+          <p className="max-w-3xl mx-auto mt-6 text-lg leading-relaxed text-gray-700">
+            The IEEE Computer Society AI Caravan 2025 journey concluded with
+            the Regional Summit in Cairo, celebrating a year of knowledge
+            sharing, collaboration, and AI-focused activities across the region.
           </p>
         </motion.div>
 
@@ -404,7 +443,101 @@ const SummitInfo: React.FC = () => {
           </div>
         </motion.div>
 
-       {/* ✨ UPDATED — TWO VIDEOS SIDE BY SIDE ✨ */}
+        {/* Summit Sponsors */}
+        <motion.div
+          className="mb-20"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+        >
+          <Award className="w-12 h-12 text-[#f9a31a] mx-auto mb-4" />
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Summit Sponsors
+          </h2>
+          <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-700">
+            The IEEE Computer Society AI Caravan Regional Summit 2025 was held
+            under the auspices of the Ministry of Finance, with the valued
+            support of our Gold, Silver, and Bronze sponsors.
+          </p>
+
+          {/* Under the auspices */}
+          <div className="mb-10">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-gray-600">
+              Under the Auspices of
+            </p>
+            <div className="max-w-md mx-auto rounded-2xl border border-[#f9a31a]/30 bg-white p-8 shadow-lg">
+              <img
+                src="/imgs/Ministry-of-Finance.jpg"
+                alt="Ministry of Finance logo"
+                className="h-28 sm:h-32 w-full object-contain"
+              />
+              <h3 className="mt-5 text-xl font-semibold text-gray-900">
+                Ministry of Finance
+              </h3>
+            </div>
+          </div>
+
+          {/* Gold and Silver sponsors */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div className="rounded-2xl border-2 border-yellow-400 bg-gradient-to-b from-yellow-50 to-white p-8 shadow-lg">
+              <p className="mb-5 text-sm font-bold uppercase tracking-[0.2em] text-yellow-700">
+                Gold Sponsor
+              </p>
+              <img
+                src="/imgs/tenet.png"
+                alt="TENET logo"
+                className="h-28 w-full object-contain"
+              />
+              <h3 className="mt-5 text-xl font-semibold text-gray-900">TENET</h3>
+            </div>
+
+            <div className="rounded-2xl border-2 border-gray-300 bg-gradient-to-b from-gray-100 to-white p-8 shadow-lg">
+              <p className="mb-5 text-sm font-bold uppercase tracking-[0.2em] text-gray-600">
+                Silver Sponsor
+              </p>
+              <img
+                src="/imgs/Fortinet_logo.svg.webp"
+                alt="Fortinet logo"
+                className="h-28 w-full object-contain"
+              />
+              <h3 className="mt-5 text-xl font-semibold text-gray-900">
+                Fortinet
+              </h3>
+            </div>
+          </div>
+
+          {/* Bronze sponsors */}
+          <div className="rounded-2xl border-2 border-amber-700/40 bg-gradient-to-b from-amber-50 to-white p-8 shadow-lg">
+            <p className="mb-7 text-sm font-bold uppercase tracking-[0.2em] text-amber-800">
+              Bronze Sponsors
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+              <div>
+                <img
+                  src="/imgs/egyptsection-logo.png"
+                  alt="IEEE Egypt Section logo"
+                  className="h-28 w-full object-contain"
+                />
+                <h3 className="mt-5 text-xl font-semibold text-gray-900">
+                  IEEE Egypt Section
+                </h3>
+              </div>
+              <div>
+                <img
+                  src="/imgs/IEEE-Region-8.png"
+                  alt="IEEE Region 8 logo"
+                  className="h-28 w-full object-contain"
+                />
+                <h3 className="mt-5 text-xl font-semibold text-gray-900">
+                  IEEE Region 8
+                </h3>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+       {/* âœ¨ UPDATED â€” TWO VIDEOS SIDE BY SIDE âœ¨ */}
 <motion.div
 className="mb-20"
 initial={{ opacity: 0, y: 50 }}
@@ -425,7 +558,7 @@ Welcome Messages
 {/* IEEE President Video */}
 <div className="text-center">
 <h3 className="text-xl font-semibold mb-4 text-[#f9a31a]">
-IEEE President – Mary Ellen Randall
+IEEE President â€“ Mary Ellen Randall
 </h3>
 <div className="w-full max-w-xl mx-auto rounded-2xl overflow-hidden shadow-xl border border-gray-200">
 <iframe
@@ -440,7 +573,7 @@ allowFullScreen
 </div>
 
 
-{/* NEW — IEEE Computer Society Video */}
+{/* NEW â€” IEEE Computer Society Video */}
 <div className="text-center">
 <h3 className="text-xl font-semibold mb-4 text-[#f9a31a]">
 IEEE CS 2025 President - Hironori Washizaki
@@ -515,7 +648,7 @@ allowFullScreen
           </h2>
           <p className="text-lg text-gray-700 mb-8">
             The <strong>IEEE Computer Society AI Caravan Regional Summit 2025</strong>{" "}
-            will be jointly hosted by <br />
+            was jointly hosted by <br />
             <a
               href="https://www.aucegypt.edu/"
               target="_blank"
@@ -535,7 +668,7 @@ allowFullScreen
             </a>
             , from{" "}
             <span className="text-[#f9a31a] font-semibold">
-              11–13 December 2025
+              11â€“13 December 2025
             </span>
             .
           </p>

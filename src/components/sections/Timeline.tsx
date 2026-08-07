@@ -86,7 +86,7 @@ const phases = [
     items: [
       {
         title: 'AI Summit & Closure',
-        images: ['/imgs/agenda/logocaravanheader.png', '/imgs/agenda/logocaravanheader.png'],
+        images: ['/imgs/agenda/Day 1.png', '/imgs/agenda/Day 2.png', '/imgs/agenda/Day 3.png'],
         description: 'Harnessing AI for Sustainable Economic Growth',
       },
     ],
