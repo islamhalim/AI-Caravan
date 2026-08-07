@@ -14,7 +14,6 @@ const Header: React.FC = () => {
   { label: 'Partners', path: '/Partners' },
   { label: 'Timeline', path: '/Timeline' },
   { label: 'Gallery', path: '/Gallery' },
-  { label: 'Registration', path: '/Registration' },
   { label: 'Contact', path: '/Contact' } // create route if you want a dedicated Contact page
 
   ];
@@ -70,16 +69,7 @@ const Header: React.FC = () => {
               ))}
             </nav>
 
-            {/* Register Button */}
-            <div className="hidden lg:block">
-              <Link
-                to="/Registration"
-                className="px-6 py-2 text-white font-semibold rounded-full transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm"
-                style={{ background: '#f9a31a' }}
-              >
-                Register Now
-              </Link>
-            </div>
+
 
             {/* Mobile menu button */}
             <button
@@ -112,15 +102,7 @@ const Header: React.FC = () => {
                   </Link>
                 ))}
                 
-                {/* Mobile Register Button */}
-                <Link
-                  to="/Registration"
-                  onClick={() => setIsMenuOpen(false)}
-                  className="block px-4 py-3 text-center text-white font-semibold rounded-lg transition-all duration-200 mt-4"
-                  style={{ background: '#f9a31a' }}
-                >
-                  Register Now
-                </Link>
+
                
               </div>
             </div>

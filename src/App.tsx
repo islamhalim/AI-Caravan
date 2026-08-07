@@ -15,7 +15,6 @@ import Contact from './components/sections/Contact';
 import Activities from './components/sections/Activities';
 import Highlights from './components/sections/Highlights';
 import Gallery from './components/sections/Gallery';
-import Registration from './components/Registration';
 
 
 
@@ -45,7 +44,6 @@ function App() {
           <Route path="/Team" element={<Team />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Outcomes" element={<Outcomes />} />
-          <Route path="/Registration" element={<Registration />} />
 {/*           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Videos" element={<RecordedVideos />} />
           <Route path="/fdc" element={<FDC />} />
